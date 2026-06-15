@@ -1,0 +1,65 @@
+{
+    "name": "princetron/tron-api",
+    "description": "增强版波场（TRON）API接口库，提供更完善的功能和更稳定的表现，简化TRON区块链应用开发",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "PrinceCoder8",
+            "email": "xxxx@gmail.com"
+        }
+    ],
+    "keywords": [
+        "tron",
+        "tron-lib",
+        "tron-php",
+        "tron-api",
+        "Tronapifull",
+        "trc20",
+        "blockchain",
+        "usdt",
+        "staking",
+        "energy",
+        "波场",
+        "区块链"
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "comely-io/data-types": "^1.0",
+        "kornrunner/secp256k1": "^0.2",
+        "simplito/elliptic-php": "^1.0",
+        "iexbase/web3.php": "^2.0.1",
+        "ext-json": "*",
+        "ext-bcmath": "*"
+    },
+    "suggest": {
+        "ext-gmp": "需要GMP扩展来使用钱包创建和地址生成功能"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tronapifull\\TronAPI\\": "src/",
+            "Comely\\DataTypes\\": "src/Support/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tronapifull\\TronAPI\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform-check": false,
+        "platform": {
+            "ext-gmp": "1.0.0",
+            "php": "7.4.33"
+        }
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+        "test": "phpunit"
+    }
+}
