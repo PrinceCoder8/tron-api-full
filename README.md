@@ -19,10 +19,10 @@
 
 ```bash
 # 标准安装
-composer require Tronapifull/tron-api
+composer require tronapifull/tron-api
 
 # 如果安装过程中遇到扩展或PHP版本兼容性问题，可以使用以下命令忽略平台要求
-composer require Tronapifull/tron-api --ignore-platform-reqs
+composer require tronapifull/tron-api --ignore-platform-reqs
 ```
 
 ### 底层库内存优化
