@@ -1,5 +1,5 @@
 {
-    "name": "princetron/tron-api",
+    "name": "tronapifull/tron-api",
     "description": "增强版波场（TRON）API接口库，提供更完善的功能和更稳定的表现，简化TRON区块链应用开发",
     "license": "MIT",
     "type": "library",
